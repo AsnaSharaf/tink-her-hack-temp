@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Finder Approval Screen</title>
+    <link rel="stylesheet" href="css/kook.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Claim Request</h2>
+
+        <div class="claim-card">
+            <p><strong>Item:</strong> Black Leather Wallet</p>
+            <p><strong>Location Found:</strong> Central Park</p>
+            <p><strong>Date Found:</strong> 12 Feb 2026</p>
+        </div>
+
+        <h3>Answers Given by Claimant</h3>
+
+        <div class="answers">
+            <div class="answer">
+                <label>What brand is the wallet?</label>
+                <p>Gucci</p>
+            </div>
+
+            <div class="answer">
+                <label>What color is inside?</label>
+                <p>Brown</p>
+            </div>
+
+            <div class="answer">
+                <label>Any unique identifier?</label>
+                <p>Has initials "R.K"</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="approve" onclick="approveClaim()">Approve Owner</button>
+            <button class="reject">Reject Claim</button>
+        </div>
+
+        <div id="chatSection" class="chat-section">
+            <h3>Contact Owner</h3>
+            <div class="chat-box">
+                <p><strong>Owner:</strong> Thank you so much!</p>
+            </div>
+            <input type="text" placeholder="Type your message...">
+            <button class="send-btn">Send</button>
+        </div>
+
+    </div>
+
+    <script>
+        function approveClaim() {
+            document.getElementById("chatSection").style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

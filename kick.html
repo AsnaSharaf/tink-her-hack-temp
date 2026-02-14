@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Finder Approval</title>
+    <link rel="stylesheet" href="CSS/kick.css">
+</head>
+
+<body>
+
+    <div class="found-claim-container">
+
+        <h2 class="found-claim-title">Claim Review</h2>
+
+        <!-- Claim Card -->
+        <div class="claim-card">
+            <div class="answers">
+                <div class="answer">
+                    <label>Item Name:</label>
+                    <span>Lost ID Card</span>
+                </div>
+                <div class="answer">
+                    <label>Location Found:</label>
+                    <span>Library</span>
+                </div>
+                <div class="answer">
+                    <label>Date:</label>
+                    <span>Feb 14, 2026 • 10:30 AM</span>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button class="approve">Approve</button>
+                <button class="reject">Reject</button>
+            </div>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="chat-section">
+            <div class="chat-box">
+                <p>Type your message...</p>
+            </div>
+            <form action="micky.html">
+                <div style="display:flex; gap:10px;">
+                    <input type="text" placeholder="Write a message..." required>
+                    <button type="submit" class="send-btn">Send</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        // Show chat section when Approve is clicked
+        document.querySelector('.approve').addEventListener('click', function () {
+            document.querySelector('.chat-section').style.display = 'block';
+        });
+    </script>
+
+</body>
+
+</html>

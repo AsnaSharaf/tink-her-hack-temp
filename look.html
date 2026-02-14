@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/look.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <!-- Form Title -->
+        <h2 class="form-title">Submit Your Item</h2>
+
+        <!-- Form -->
+        <form action="fook.html">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Item Description -->
+            <div class="form-group">
+                <label for="description">Item Description</label>
+                <textarea id="description" placeholder="Describe the item" rows="4" required></textarea>
+            </div>
+
+            <!-- Upload Box -->
+            <div class="upload-box">
+                <p>Click or Drag & Drop to Upload Photo</p>
+                <input type="file" accept="image/*">
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
