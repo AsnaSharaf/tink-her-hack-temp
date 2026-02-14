@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [ lofo] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [bloomtwins]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [asna p] - [emea arts and science of college]
+- Member 2: [fathima shahna a] - [emea arts and science of college]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://asnasharaf.github.io/tink-her-hack-temp/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[to find lost things through website very easily]
 
 ### The Problem statement
-[What problem are you solving?]
+[to find lost things]
 
 ### The Solution
-[How are you solving it?]
+[we can identify lost things easily through this website]
 
 ---
 
@@ -31,7 +31,7 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
+- Languages used: [e.g., html, css, Java]
 - Frameworks used: [e.g., React, Django, Spring Boot]
 - Libraries used: [e.g., axios, pandas, JUnit]
 - Tools used: [e.g., VS Code, Git, Docker]
@@ -46,9 +46,9 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
+- Feature 1: [easily login college students]
+- Feature 2: [we can upload the  descripition about lost product]
+- Feature 3: []
 - Feature 4: [Description]
 
 ---
